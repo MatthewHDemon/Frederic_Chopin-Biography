@@ -49,7 +49,7 @@ a {
 }
 
 .option:hover {
-    background-color: rgb(255, 68, 68);
+    background-color: rgb(129, 0, 0);
 }
 
 .option:hover a {
@@ -72,7 +72,7 @@ li {
 }
 
 .butterfly:hover {
-    background-color: rgb(255, 68, 68);
+    background-color: rgb(129, 0, 0);
     background-color: none;
     font-size: 36px;
     transition: 0.2s;
@@ -96,9 +96,9 @@ li {
     display: none;
 }
 
-.containerBiography {
+#containerBiography {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 150px;
@@ -108,13 +108,21 @@ li {
     color: #f5f5f5;
 }
 
-.containerBiography img {
+#containerBiography img {
     width: 350px;
     padding-top: 15px;
 }
-.containerBiography h2 {
+#containerBiography h2 {
     text-align: center;
     padding-bottom: 5px;
+}
+
+hr {
+    height: 15px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.575);
+    border: none;
+    margin: 100px 0 100px 0;
 }
 
 
@@ -131,10 +139,25 @@ li {
     flex-direction: row;
     align-items: flex-start;
 }
+
 .historiaContainer img {
     width: 750px;
     border-radius: 0 0 0px 8px;
 }
+
+.containerBiography-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 50px;
+}
+
+.musicOne {
+    width: 300px;
+    height: 150px;
+}
+
+
 
 .imagenHistoriaContainer {
     display: flex;
@@ -1242,9 +1265,9 @@ iframe {
 }
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #00eeff;
+    background-color: rgb(179, 0, 0);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: hsl(167, 100%, 29%);
+    background-color:  rgb(133, 0, 0);;
 }
